@@ -1,0 +1,139 @@
+
+
+input[type=text],input[type=email],input[type=date],input[type=password],input[type=tel],button{
+	display: block;
+	margin: 12% 4%;
+	
+	width: 70%;
+}
+
+input{
+
+	font-family: Timesroman;
+	font-size: 15px;
+	padding-left: 10px;
+	border-radius: 50px;
+	border: 1px solid rgb(118, 118, 118);
+}
+.container{
+	width: 60%;
+	margin: auto;
+
+}
+
+.inputcontainer{
+
+	border: 2px solid white;
+	display: grid;
+	grid-template-columns: auto 50%;
+	margin: 1%;
+	border-radius: 7px;
+
+}
+label,button,h3{
+	color: white;
+	width: 35%;
+}
+form{
+	background-color: #9D5C0D;
+}
+
+.gender{
+	margin: 0 3%;
+}
+
+button{
+	text-align: center;
+	width: 20%;
+	padding: 1% 3%;
+	background-color: rgba(0, 0, 0,0);
+	border: 1px solid black;
+	border-radius: 25px;
+	cursor: pointer;
+	border-color: white;
+	font-weight: bold;
+
+}
+button:hover{
+	background-color: #C0DFD9;
+}
+.honeyimg{
+	width: 100%;
+	float: right;
+	}
+
+
+aside{
+
+	grid-column: 2/3;
+}
+form{
+	grid-column: 1/2;
+}
+@media (min-width: 1850px)
+{
+	input{
+		padding: 2%;
+	}
+	button{
+		width: 20%;
+	}
+}
+
+@media (max-width: 800px)
+{
+input[type=text],input[type=email],input[type=date],input[type=password],input[type=tel],button{
+
+			margin: auto;
+			margin-top: 20%;
+			width: 75%;
+
+
+	}
+
+.container
+{
+width: 70%;
+
+
+}
+.inputcontainer{
+	display: flex;
+	justify-content: center;
+		background-color: #9D5C0D;
+
+
+}
+
+.honeyimg{
+	
+display: none;
+}
+
+.contact{
+	display: none;
+}
+
+footer{
+	
+	margin-top: 10em;
+
+}
+
+.inputcontainer div{
+	margin-top: 10%;
+
+}
+button{
+	border-color: white;
+	margin-bottom: 5%;
+	font-size: 1.1em;
+}
+
+h3{
+	font-size: 1.2em;
+	margin-left:2%;
+}
+	
+
+}

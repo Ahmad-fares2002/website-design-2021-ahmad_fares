@@ -1,0 +1,62 @@
+.container{
+	text-align: left;
+	
+	width: 50%;
+	margin: 3% auto;
+}
+.address{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	
+
+}
+.container select,.container input{
+	width: 70%;
+	margin: 2% 25%;
+	border-radius: 25px;
+	border: 2px solid darkgray;
+	text-align: right;
+	padding: 1%;
+}
+
+
+
+
+aside{
+
+margin-right: 2%;
+
+}
+aside div{
+	background-color: #1A374D;
+	padding: 3%;
+	color: white;
+}
+aside button{
+	background-color: skyblue;
+	border: 1px solid black;
+	margin-left: 3%;
+	padding: 1%;
+	width: 15%;
+	color: white;
+	border-radius: 10px;
+
+}
+.gridcontainer{
+	display: grid;
+	grid-template-columns: 30% auto;
+	padding: 10px;
+
+}
+
+@media (max-width: 767px){
+
+.quantity{
+	margin-left: 0%;
+	width: 100%;
+}
+aside button{
+	width: 35%;
+}
+}

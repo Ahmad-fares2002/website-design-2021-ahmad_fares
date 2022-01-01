@@ -1,0 +1,29 @@
+.gridcont{
+	display: grid;
+	grid-template-columns: 30% auto;
+	padding: 5%;
+}
+p{
+	margin-top: 10%;
+}
+.gridcont input, .gridcont button{
+	height:2em;
+    margin-top: 5%;
+}
+.price{
+	margin: 0;
+	margin-left: 70%;
+	transform: translateY(-130%);
+}
+.addtocart{
+	width: 60%;
+	background-color: skyblue;
+	border: 1px solid white;
+	margin-left: 25%;
+	border-radius: 25px;
+	padding: 5% 4%;
+
+
+	color: white;
+
+}

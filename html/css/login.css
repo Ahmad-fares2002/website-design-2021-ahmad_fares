@@ -1,0 +1,113 @@
+.imgcontainer{
+	width: 7%;
+	margin: auto;
+
+}
+
+
+.container p,.container label, .container .register{
+	color: white;
+	font-weight: bold;
+	border-color: white;
+
+}
+
+.imgcontainer img{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 100%;
+	padding: 10px;
+	transform: translateY(30%);
+	background-color: white;
+}
+.container p{
+	text-align: center;
+	margin-top: 1.5em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.container{
+	width: 50%;
+	margin: auto;
+	border: 1px solid white;
+	overflow: hidden;
+}
+
+
+.credentials{
+	width: 95%;
+	margin: auto;
+
+
+}
+.credentials input{
+	width: 100%;
+	margin-top: 3%;	
+	padding: 1%;
+	border-radius: 20px;
+	border: 1px solid rgb(113, 113, 113) ;
+	outline: none;
+}
+.container a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 3% 4%;
+	padding: 1%;
+	background-color: rgba(255, 115, 21, 0.2);
+}
+.rememberme{
+
+	margin: 3% 3%;
+}
+.buttons{
+	float: right;
+	margin: 3% 3%;
+
+}
+button{
+	width: 100%;
+	padding: 2%;
+	border: none;
+	font-size: 1.2em;
+
+
+}
+button:hover{
+	 transition: all .7s;
+	 transition-timing-function: ease;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+}
+
+.register{
+	margin-top: 10%;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid black;
+
+}
+.signin{
+	border: 1px solid #89cff0	;
+	background-color: #89cff0;
+	color: white;
+
+}
+@media (max-width: 750px)
+{
+	
+	.imgcontainer{
+	width: 15%;
+}
+button{
+	width: 70%;
+}
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}

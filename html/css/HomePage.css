@@ -1,0 +1,66 @@
+
+.slide1{
+	width: 100%;
+
+	z-index: 4;
+}
+.slidecontainer{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+
+div>label{
+	display: inline-block;
+border: 1px solid black;
+width: 40px;
+height: 5px;
+
+cursor: pointer;
+
+}
+
+.menu{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.menu a{
+background-color: #C0DFD9;
+box-shadow: 1px 1px 1px 1px black;
+padding: 10px;
+
+}
+input[type=radio]{
+	display: none;
+}
+label:hover{
+	background-color: orange;
+}
+.slideshow{
+	display: flex;
+	flex-wrap: wrap;
+	
+	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.slideshow img{
+	width: 30%;
+	
+	margin: auto;
+}
+footer *{
+	color: black;
+}
+footer{
+	border-top-color: black;
+}
+
+@media (max-width: 767px){
+	footer{
+		margin-top: 15%;
+	}
+}

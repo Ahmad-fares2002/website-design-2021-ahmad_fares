@@ -1,0 +1,180 @@
+.logo{
+	width: 15%;
+	position: relative;
+	left: 3%;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 20% 50% auto;
+	margin-top: 10%;
+	padding-bottom: 0;
+	color: white;
+	border-top: 2px solid white;
+}
+.footerimg{
+	width: 7%;
+	position: absolute;
+    left: 10px;
+}
+
+.contact{
+	text-align: right;
+	margin-right: 10%;
+	font-size: 1.4em;
+}
+.socialmedia{
+	text-align: center;
+}
+.followus{
+	padding: 2% 3%;
+	border-radius: 10px;
+	font-size: 30px;
+	text-decoration: none;
+ }
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+.fa-instagram {
+	background-image: linear-gradient(#515BD4, #8134AF,#DD2A7B,#FEDA77,#F58529);
+	color: white;
+ }
+ nav{
+	background-color: black;
+	overflow: hidden;
+	position: sticky;
+	top: 0px;
+	text-align: right;
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	float: right;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+
+nav a:hover {
+	background-color: #BCCBC9;
+}
+.fa-shopping-cart{
+	background-color: #C0DFD9;
+	font-size: 1.5em;
+
+}
+
+.navimg{
+	transform: translate(20%,-20%);
+	z-index: 5;
+	position: absolute;
+	width: 8%;
+}
+.searchcon{
+	width: 70%;
+	margin: auto;
+	margin-top: .4%;
+	
+}	
+.search{
+	width: 80%;
+	height: 1.7rem;
+	outline: none;
+	float: left;
+}
+.fa-search{
+	border-radius: 7px;
+	float: left;
+	padding: 0.5%;
+	
+	
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.gridcont input[type=number] {
+  -moz-appearance: textfield;
+  width: 30%;
+}
+.gridcont{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.icon{
+	float: right;
+	width: 24px;
+}
+.quantity{
+	display: flex;
+	flex-wrap: wrap;
+	
+	margin-left: 35%;
+	width: 50%;
+	
+}
+.quantity button{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+.quantity button:hover{
+	
+	background-color: skyblue;
+}
+
+.prod{
+	width: 100%;
+}
+p{
+	margin: 3%;
+}
+
+@media (max-width: 767px){
+
+.quantity{
+	margin-left: 0%;
+	width: 100%;
+}
+}
+
+
+
+
+
+
+ @media (max-width: 767px)
+ {
+ 	.contact{
+		display: none;
+	}
+	footer{
+		margin-top: 30%;
+	}
+	.footerimg {
+		width: 15%;
+	}
+	nav{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		position: static;
+	}
+	.searchcon{
+	width: 50%;
+
+}	
+
+
+
+ }

@@ -1,0 +1,112 @@
+nav{
+	background-color: black;
+	font-size: 2em;
+	overflow: hidden;
+	margin-bottom: 5%;
+	position: sticky;
+	top: 0;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	float: left;
+
+}
+.fa-shopping-cart{
+	float: right;
+	padding: 0 10px;
+	
+}
+nav a:hover{
+	background-color: #BCCBC9;
+
+
+}
+
+
+
+
+
+main{
+	display: flex;
+}
+
+
+table,td,tr{
+	border: 2px solid skyblue;
+
+
+	}
+	td,tr,th{
+		padding: 2%;
+	}
+table{
+	width: 60%;
+	font-size: 1.4em;
+	margin: auto;
+	margin-top: 5%;
+	}	
+th{
+	text-align: left;
+	width: 30%;
+}
+tr:nth-child(odd){
+	background-color: skyblue;
+}
+    
+
+
+
+.breif{
+	width: 30%;
+
+}
+.breif p{
+	text-align: center;
+	margin-top: 3%;
+}
+#pmover{
+	margin-top:7%;
+	text-align: center;
+}
+.breif img{
+	width: 40%;
+	border: 1px solid black;
+	padding: 3%;
+	margin-left: 30%;
+	border-radius: 100%;
+
+}
+.link{
+	border: 0;
+	background: none;
+	margin-top: 4%;
+}
+#signout{
+	text-align: center;
+	margin-top: 3%;
+} 
+#signout button{
+	background-color: rgba(0, 0, 0,0);
+	border: 1px solid black;
+	padding: 3% 7%;
+	color: red;
+}
+#followus{
+	margin-top: 3%;
+	text-align: center;
+}
+#followus a{
+
+	padding: 1% 2%;
+	margin: 2%;
+}
+#followus p{
+	font-weight: bold;
+	font-size: 2em;
+}
+footer {
+	color: black;
+	border-color: black;
+}
