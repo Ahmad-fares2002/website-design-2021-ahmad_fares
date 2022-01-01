@@ -68,6 +68,9 @@ nav a:hover {
 	font-size: 1.5em;
 
 }
+.fa-user{
+	font-size: 1.5rem;
+}
 
 .navimg{
 	transform: translate(20%,-20%);

@@ -23,12 +23,23 @@ cursor: pointer;
 
 }
 
+
+
+
 .menu{
 	text-align: center;
 	margin-bottom: 20px;
 }
 
 
+.avatar{
+	padding: 0;
+	font-size: 0;
+}
+
+nav a img{
+	width: 3%;
+}
 .menu a{
 background-color: #C0DFD9;
 box-shadow: 1px 1px 1px 1px black;
