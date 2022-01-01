@@ -5,10 +5,12 @@
 }
 
 
-.container p,.container label, .container .register{
+.container p,.container label, .container #register{
 	color: white;
 	font-weight: bold;
 	border-color: white;
+
+
 
 }
 
@@ -63,9 +65,10 @@
 .buttons{
 	float: right;
 	margin: 3% 3%;
+	text-align: center;
 
 }
-button{
+.buttons a{
 	width: 100%;
 	padding: 2%;
 	border: none;
@@ -73,20 +76,20 @@ button{
 
 
 }
-button:hover{
+.buttons a:hover{
 	 transition: all .7s;
 	 transition-timing-function: ease;
 	background-color: rgba(0, 0, 0, 0.7);
 	
 }
 
-.register{
+#register{
 	margin-top: 10%;
 	background-color: rgba(0, 0, 0, 0);
 	border: 1px solid black;
 
 }
-.signin{
+#signin{
 	border: 1px solid #89cff0	;
 	background-color: #89cff0;
 	color: white;
@@ -98,7 +101,7 @@ button:hover{
 	.imgcontainer{
 	width: 15%;
 }
-button{
+.buttons a{
 	width: 70%;
 }
 }

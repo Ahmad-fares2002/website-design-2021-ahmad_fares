@@ -1,35 +1,6 @@
-nav{
-	background-color: black;
-	font-size: 2em;
-	overflow: hidden;
-	margin-bottom: 5%;
-	position: sticky;
-	top: 0;
-}
-nav a{
-	text-decoration: none;
-	color: white;
-	padding-left: 10px;
-	float: left;
-
-}
-.fa-shopping-cart{
-	float: right;
-	padding: 0 10px;
-	
-}
-nav a:hover{
-	background-color: #BCCBC9;
-
-
-}
-
-
-
-
-
 main{
 	display: flex;
+
 }
 
 
@@ -75,6 +46,7 @@ tr:nth-child(odd){
 	border: 1px solid black;
 	padding: 3%;
 	margin-left: 30%;
+	margin-top: 4%;
 	border-radius: 100%;
 
 }

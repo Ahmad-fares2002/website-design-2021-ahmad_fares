@@ -1,4 +1,7 @@
-
+.menu a{
+	text-decoration: none;
+	color: whitesmoke;
+}
 .slide1{
 	width: 100%;
 
