@@ -49,6 +49,10 @@ aside button{
 	padding: 10px;
 
 }
+footer{
+	color: black;
+	border-top-color: black;
+}
 
 @media (max-width: 767px){
 
